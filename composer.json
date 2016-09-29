@@ -1,0 +1,24 @@
+{
+  "name": "blioxxx/contao-gitbackup",
+  "description": "Git Backup Manager for Contao Open Source CMS",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mirco Kibiger",
+      "email": "mkibiger@blioxxx.de"
+    }
+  ],
+  "require": {
+    "contao/core": "3.5.*",
+    "bit3/git-php": "1.3.0",
+    "contao-community-alliance/composer-plugin":"^2.4.0 || 3.*"
+  },
+  "extra":{
+    "contao": {
+      "sources":{
+        "": "system/modules/bx_gitbackup"
+      }
+    }
+  }
+}
