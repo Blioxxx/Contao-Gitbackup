@@ -8,7 +8,7 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_host_url'] = array
     'exclude'                 => true,
     'search'                  => true,
     'inputType'               => 'text',
-    'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50', 'maxlength'=>6, 'minlength'=>6)
+    'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50')
 );
 
 $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_host_user'] = array
@@ -17,7 +17,7 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_host_user'] = array
     'exclude'                 => true,
     'search'                  => true,
     'inputType'               => 'text',
-    'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50', 'maxlength'=>6, 'minlength'=>6)
+    'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50')
 );
 
 $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_host_password'] = array
@@ -26,7 +26,7 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_host_password'] = array
     'exclude'                 => true,
     'search'                  => true,
     'inputType'               => 'text',
-    'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50', 'maxlength'=>6, 'minlength'=>6)
+    'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50')
 );
 
 $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_path'] = array
@@ -35,5 +35,5 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_path'] = array
     'exclude'                 => true,
     'search'                  => true,
     'inputType'               => 'text',
-    'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50', 'maxlength'=>6, 'minlength'=>6)
+    'eval'                    => array('mandatory'=>false, 'tl_class'=>' w50')
 );
