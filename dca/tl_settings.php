@@ -25,7 +25,7 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['bx_git_host_password'] = array
     'label'                   => &$GLOBALS['TL_LANG']['tl_settings']['bx_git_host_password'],
     'exclude'                 => true,
     'search'                  => true,
-    'inputType'               => 'text',
+    'inputType'               => 'password',
     'eval'                    => array('mandatory'=>true, 'tl_class'=>' w50')
 );
 
