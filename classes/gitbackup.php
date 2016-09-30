@@ -1,9 +1,10 @@
 <?php
 
-use Contao\Input;
-use Blioxxx\Contao\git;
+namespace Blioxxx\Contao;
 
-class backend extends \BackendModule
+use Contao\Input;
+
+class gitbackup extends \BackendModule
 {
     // template var
     protected $strTemplate = 'be_bx_gitbackup';

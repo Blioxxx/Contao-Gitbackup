@@ -11,7 +11,7 @@
  */
 array_insert($GLOBALS['BE_MOD']['system'], 3, array (
     'gitbackup' => array (
-        'callback'  => 'backend',
+        'callback'  => 'Blioxxx\Contao\gitbackup',
         'icon'      => 'system/modules/bx_gitbackup/assets/icon.png',
 
     )

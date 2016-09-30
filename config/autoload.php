@@ -2,12 +2,20 @@
 
 
 /**
+ * Register the namespaces
+ */
+ClassLoader::addNamespaces(array
+(
+    'Blioxxx',
+));
+
+/**
  * Register the classes
  */
 ClassLoader::addClasses(array(
-    'backup'                => 'system/modules/bx_gitbackup/classes/backend.php',
     // Classes
-    'Blioxxx\Contao\git'    => 'system/modules/bx_gitbackup/classes/git.php',
+    'Blioxxx\Contao\git'        => 'system/modules/bx_gitbackup/classes/git.php',
+    'Blioxxx\Contao\gitbackup'  => 'system/modules/bx_gitbackup/classes/gitbackup.php',
 ));
 
 /**
