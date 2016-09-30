@@ -1,5 +1,8 @@
 <?php
 
+use Contao\Input;
+use Blioxxx\Contao\git;
+
 class backend extends \BackendModule
 {
     // template var
@@ -7,6 +10,16 @@ class backend extends \BackendModule
 
     public function compile()
     {
-        // TODO: Implement compile() method.
+        if(Input::get('cmd') == "init")
+        {
+            $git = new git();
+            $git->createGit();
+        }
+
+        if(Input::get('cmd') == "commit")
+        {
+            $git = new git();
+            $git->commitChanges();
+        }
     }
 }

@@ -6,5 +6,6 @@
 
 <!-- TODO: Link with dca with link -->
 <div class="button">
-<a href=""></a>
+    <a href="<? echo \Contao\Environment::get('url')."?cmd=init"; ?>">Init Github</a>
+    <a href="<? echo \Contao\Environment::get('url')."?cmd=commit"; ?>">Commit</a>
 </div>
