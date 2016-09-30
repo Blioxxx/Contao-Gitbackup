@@ -24,7 +24,7 @@ class gitbackup extends \BackendModule
             $git->commitChanges();
         }
 
-        $this->Template->init = Environment::get('url')."&cmd=init";
-        $this->Template->commit = Environment::get('url')."&cmd=commit";
+        $this->Template->init = Environment::get('uri')."&cmd=init";
+        $this->Template->commit = Environment::get('uri')."&cmd=commit";
     }
 }
