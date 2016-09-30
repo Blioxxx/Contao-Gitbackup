@@ -1,0 +1,10 @@
+<div id="tl_buttons">
+    <a href="<?php echo $this->referer;?>" class="header_back" title="<?php echo $this->backTitle;?>" accesskey="b" onclick="Backend.getScrollOffset();"><?php echo $this->backTitle; ?></a>
+</div>
+
+<h2 class="sub_headline"><?php echo $this->headline; ?></h2>
+
+<!-- TODO: Link with dca with link -->
+<div class="button">
+<a href=""></a>
+</div>
