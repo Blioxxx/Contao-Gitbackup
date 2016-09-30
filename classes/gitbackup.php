@@ -2,6 +2,7 @@
 
 namespace Blioxxx\Contao;
 
+use Contao\Environment;
 use Contao\Input;
 
 class gitbackup extends \BackendModule
@@ -22,5 +23,8 @@ class gitbackup extends \BackendModule
             $git = new git();
             $git->commitChanges();
         }
+
+        $this->Template->init = Environment::get('url')."&cmd=init";
+        $this->Template->commit = Environment::get('url')."&cmd=commit";
     }
 }
