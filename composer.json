@@ -2,6 +2,7 @@
   "name": "blioxxx/contao-gitbackup",
   "description": "Git Backup Manager for Contao Open Source CMS",
   "minimum-stability": "dev",
+  "type":"contao-module",
   "license": "proprietary",
   "authors": [
     {

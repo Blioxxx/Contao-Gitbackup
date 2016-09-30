@@ -4,8 +4,7 @@
 
 <h2 class="sub_headline"><?php echo $this->headline; ?></h2>
 
-<!-- TODO: Link with dca with link -->
 <div class="button">
-    <a href="<? echo \Contao\Environment::get('url')."?cmd=init"; ?>">Init Github</a>
-    <a href="<? echo \Contao\Environment::get('url')."?cmd=commit"; ?>">Commit</a>
+    <a href="<? echo \Contao\Environment::get('url')."&cmd=init"; ?>">Init Github</a>
+    <a href="<? echo \Contao\Environment::get('url')."&cmd=commit"; ?>">Commit</a>
 </div>
